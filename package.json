@@ -1,0 +1,22 @@
+{
+  "name": "telegram-bots-batch",
+  "version": "1.0.0",
+  "description": "Система групи Telegram ботів з інтеграцією n8n",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "start:bots": "./start-bots.sh"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "n8n",
+    "webhook"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "telegraf": "^4.10.0"
+  }
+}

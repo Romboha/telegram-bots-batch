@@ -1,0 +1,34 @@
+# Залежності
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Змінні середовища та конфіденційні дані
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Системні файли
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Тимчасові файли ботів
+data/*/
+
+# Логи
+logs/
+*.log
+
+# Кеш
+.npm/
+.cache/
+
+# Збірки
+dist/
+build/
